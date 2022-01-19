@@ -3,7 +3,7 @@ use db_cursoDaMinhaVida;
 
 create table tb_categoria(
 id bigint auto_increment,
-área varchar (30) not null,
+área varchar (255) not null,
 vaga bigint not null,
 primary key (id)
 );
